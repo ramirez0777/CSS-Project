@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Bitter|Dancing+Script:700|Fascinate+Inline|Grenze|Inconsolata|Indie+Flower|Lobster|Mansalva|Raleway|Source+Code+Pro|Source+Serif+Pro|Teko|Ubuntu&display=swap");
+
+*
+{
+	margin: 0;	padding: 0;	box-sizing: border-box;
+}
+
+body
+{
+	display: flex;
+	height: 100vh;
+}
+
+
+/*Navigation*/
+nav
+{
+	background-color: #AE44F3;
+	width: 300px;
+	border-right: 5px solid black;
+}
+
+ul
+{
+	width: 300px;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+}
+
+li
+{
+	display: inline-block;
+	margin-top: 75px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+a
+{
+	display: inline-bloc;
+	text-decoration: none;
+	text-align: right;
+	color: white;
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;
+}
+
+a:hover
+{
+	transform: skewX(-5deg);
+	border-radius: 20%;
+	color: black;
+}
+
+nav ul li:nth-child(2) a
+{
+	color: black;
+	pointer-events: none;
+}
+
+/*End of Navigation*/
+
+/*Main Content*/
+
+
+nav, main
+{
+	height: 100%;
+}
+
+main
+{
+	background-color: #E9F2D7;
+	float: right;
+}
+
+p
+{
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;	
+}
+
+h1, h2
+{
+	margin-left: 50px;
+	font-family: 'Mansalva', cursive;
+	padding-top: 5px;
+}
+
+h1
+{
+	font-size: 40px;
+}
+
+h2
+{
+	font-size: 20px;
+}
+
+.group1, .group2, .group3
+{
+	width: 80%;
+	margin: 10px auto;
+	border: 1px solid #458C50;
+	padding: 10px;
+}
+
+/*End of Main Content*/
+
+/*Images*/
+img
+{
+	width: 100px;
+	display: none;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#img2, #img5, #img8
+{
+	display: block;
+}
+
+#img8
+{
+	float: right;
+	margin-left: 20px;
+}
+
+#img5, #img2
+{
+	margin-right: 20px;
+	float: left;
+}

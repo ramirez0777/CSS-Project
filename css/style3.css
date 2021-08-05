@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Bitter|Dancing+Script:700|Fascinate+Inline|Grenze|Inconsolata|Indie+Flower|Lobster|Mansalva|Raleway|Source+Code+Pro|Source+Serif+Pro|Teko|Ubuntu&display=swap");
+
+*
+{
+	margin: 0;	padding: 0;	box-sizing: border-box; 
+}
+
+body
+{
+	background-image: url(../img/blue-bg.png);
+}
+
+/*Navigation*/
+nav
+{
+	background-color: #4D0785;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+ul
+{
+	text-align: center;
+}
+
+li
+{
+	margin-left: 10px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+a
+{
+	display: inline-block;
+	padding: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li:last-child a
+{
+	pointer-events: none;
+}
+
+nav ul li:last-child a, a:hover
+{
+	background-color: #9365B8;
+	border-radius: 0 0 25% 25%;
+	border-top: 5px dashed #1C0C52;
+}
+
+
+
+/*End of Navigation*/
+
+/*Main Content*/
+main
+{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;	
+	height: 100vh;
+	z-index: -1
+}
+
+.group1, .group2, .group3
+{
+	background-color: #686AE3;
+	width: 45%;
+	height: 250px;
+	border-radius: 15px;
+	
+}
+
+.group1
+{
+	position: absolute;
+	z-index: 100;
+	left: 50px;
+	top: 50px;
+}
+
+.group2
+{
+	position: absolute;
+	bottom: 150px;
+	left: 50px;
+}
+
+.group3
+{
+	position: absolute;
+	right: 50px;
+	bottom: 150px;
+}
+
+p
+{
+	text-align: justify;
+	padding: 10px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1
+{
+	width:;
+	text-align: center;
+	right: 4%;
+	top: 45px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	font-size: 85px;
+}
+
+h2
+{
+	top: 240px;
+	right: 4%;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 45px;
+	
+}
+
+h1, h2
+{
+	position: absolute;
+}
+
+/*End of Main Content*/
+
+/*Images*/
+img
+{
+	display: none;
+	width: 200px;
+	height: 150px;
+	float: right;
+	margin-left: 10px;
+}
+
+#img10, #img11, #img12
+{
+	display: block;
+}

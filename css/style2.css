@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Bitter|Dancing+Script:700|Fascinate+Inline|Grenze|Inconsolata|Indie+Flower|Lobster|Mansalva|Raleway|Source+Code+Pro|Source+Serif+Pro|Teko|Ubuntu&display=swap");
+
+*
+{
+	margin: 0;	padding: 0;	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url(../img/black-bg.png);
+}
+
+/*Navigation*/
+nav
+{
+	background-color: #331333;
+	text-align: right;
+	width: 100%;
+}
+
+ul
+{
+	text-align: right;
+}
+
+li
+{
+	display: inline-block;
+	text-align: center;
+}
+
+a
+{
+	display: inline-block;
+	text-align: center;
+	padding: 25px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	font-size: 35px;
+	margin: 10px;	
+
+}
+
+nav ul li:nth-child(3) a
+{
+	background-color: #564D59;
+	border-radius: 20%;
+	pointer-events: none;
+}
+
+a:hover
+{
+	background-color: #564D59;
+	border-radius: 20%;
+}
+
+/*End of Navigation*/
+
+/*Main Content*/
+.group1, .group2, .group3
+{
+	background-color: white;
+	width: 90%;
+	margin: 25px auto;
+	clear: both;
+	height: 150px;
+	background-color: #518357;
+	color: white;
+	border-radius: 9px;
+}
+
+.group1, .group3
+{
+	width: 72%;
+	float: right;
+	margin-right: 70px;
+}
+
+.group2
+{
+	width: 72%;
+	float: left;
+	margin-left: 70px;
+}
+
+main
+{
+	background-color: #538F75;
+	width: 90%;
+	margin: 0 auto;
+	min-height: 100vh;
+	height: 100vh;
+	position: relative;
+}
+
+p
+{
+	padding: 10px;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+	text-align: justify;
+}
+
+h1, h2
+{
+	margin-top: 10px;
+}
+
+h1
+{
+	float: left;
+	margin-left: 75px;
+	font-family: 'Mansalva', cursive;
+}
+
+h2
+{
+	float: right;
+	margin-right: 75px;
+	font-family: 'Inconsolata', monospace;
+}
+
+/*End of Main Content*/
+
+/*Images*/
+img
+{
+	width: 200px;
+	height: 150px;
+	display: none;
+}
+
+#img3, #img6, #img9
+{
+	display: block;
+	border-radius: 9px;
+}
+
+#img3, #img6
+{
+	position: absolute;
+	left: 75px;
+}
+
+#img9
+{
+	position: absolute;
+	right: 75px;
+}
